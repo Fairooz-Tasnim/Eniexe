@@ -1,0 +1,141 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: #0B1220;
+    color: #ffffff;
+}
+
+/* Hero Section */
+
+.hero{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg,#0B1220,#111827,#1E293B);
+}
+
+/* Content */
+
+.hero-content{
+    max-width: 800px;
+}
+
+/* Logo */
+
+.logo{
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+/* Heading */
+
+.hero h1{
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* Sub Heading */
+
+.hero h3{
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #3B82F6;
+}
+
+/* Paragraph */
+
+.hero p{
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #d1d5db;
+    max-width: 700px;
+}
+
+/* Buttons */
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.buttons a{
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+/* First Button */
+
+.buttons a:first-child{
+    background: #2563EB;
+    color: white;
+}
+
+.buttons a:first-child:hover{
+    background: #1D4ED8;
+    transform: translateY(-3px);
+}
+
+/* Second Button */
+
+.buttons a:last-child{
+    border: 2px solid #2563EB;
+    color: white;
+}
+
+.buttons a:last-child:hover{
+    background: #2563EB;
+    transform: translateY(-3px);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size: 42px;
+    }
+
+    .hero h3{
+        font-size: 20px;
+    }
+
+    .hero p{
+        font-size: 16px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons a{
+        width: 220px;
+    }
+
+    .logo{
+        width: 120px;
+    }
+}
