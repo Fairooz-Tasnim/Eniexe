@@ -1,11 +1,12 @@
 # ENIEXE
 
-> A modern agency website built to showcase creative and digital services.
+> A modern agency website showcasing digital marketing, graphic design, web development, and video editing services.
 
 ## 📌 Overview
 
-ENIEXE is a modern agency website designed for a digital service agency. 
-The website presents the agency's services, portfolio, information, and contact details in a clean and responsive interface.
+ENIEXE is a modern and responsive agency website created for a digital service agency. It showcases the agency's services, portfolio, client work, and contact information through a clean and user-friendly interface.
+
+The website is designed to provide visitors with a clear overview of ENIEXE's digital services while maintaining a professional and modern visual experience.
 
 ## 🛠️ Technologies Used
 
@@ -19,13 +20,22 @@ The website presents the agency's services, portfolio, information, and contact 
 - Services section
 - About section
 - Portfolio section
+- Client work section
+- Testimonials section
 - Contact section
-- Modern and clean UI
-- Responsive layout
+- Responsive design
+- Clean and modern user interface
+- Multiple service pages
 
 ## 📸 Screenshot
 
 ![ENIEXE Website Screenshot](./screenshot.png)
+
+## 📦 Dependencies
+
+This project does not require any external package installation.
+
+It uses HTML5 and CSS3 along with web-based resources included in the project.
 
 ## 🚀 Getting Started
 
